@@ -1,12 +1,18 @@
-import java.util.LinkedList;
+import BuilderV2.Cica;
+import BuilderV2.*;
 
 /**
  * Created by Ricsko on 2017. 05. 04..
  */
 public class Main {
     public static void main(String[] args) {
-//        Singleton singleton = new Singleton();
-//        Singleton singleton1 = Singleton.getInstance();
+
+        /**
+         * Singleton design pattern
+         */
+
+//        Singleton.Singleton singleton = new Singleton.Singleton();
+//        Singleton.Singleton singleton1 = Singleton.Singleton.getInstance();
 //
 //        System.out.println("Instance id: " + System.identityHashCode(singleton1));
 //        System.out.println(singleton1.getLetterList());
@@ -16,11 +22,22 @@ public class Main {
 //        System.out.println(singleton1.toString());
 //
 //
-//        Singleton singleton2 = Singleton.getInstance();
+//        Singleton.Singleton singleton2 = Singleton.Singleton.getInstance();
 //        System.out.println("Instance2 id: " + System.identityHashCode(singleton2));
 //
 //        if(singleton1.equals(singleton2)){
 //            System.out.println(true);
 //        }
+
+        /**
+         * Builder pattern
+         */
+//
+//        Cica cicaBuilder = new Cica.CicaBuilder().withAge(10).build();
+//
+//        cicaBuilder.kiir();
+
+
+
     }
 }
