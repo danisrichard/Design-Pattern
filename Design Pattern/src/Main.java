@@ -1,11 +1,12 @@
 import BuilderV2.Cica;
 import BuilderV2.*;
+import Factory.*;
 
 /**
  * Created by Ricsko on 2017. 05. 04..
  */
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         /**
          * Singleton design pattern
@@ -37,7 +38,25 @@ public class Main {
 //
 //        cicaBuilder.kiir();
 
-
-
+        /**
+         * Prototype pattern
+         */
+//
+//        Factory factory = new Factory();
+//
+//        IDosomething object1 = factory.getIDosomething("macska");
+//
+//        IDosomething object2 = factory.getIDosomething("BENGALI");
+//
+//        IDosomething object3 = factory.getIDosomething("MACSKA");
+//
+//        object1.doing();
+//        object2.doing();
+//        try {
+//            IDosomething objectnull = factory.getIDosomething("dsdasdas");
+//            objectnull.doing();
+//        }catch (NullPointerException e){
+//            System.out.println("Hoppsz, nincs ilyne érték");
+//        }
     }
 }
